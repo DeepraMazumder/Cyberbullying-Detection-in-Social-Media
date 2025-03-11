@@ -1,0 +1,23 @@
+INPUT SENTENCE: He is a nigga and his son is a monkey
+
+CATEGORY: Race/Ethnicity related cyberbullying
+
+SUGGESTED ALTERNATIVES:
+
+1. He and his son are different.
+2. Their appearances differ.
+
+
+HARMFUL CONTENT IDENTIFICATION:
+
+ 🔴 nigga
+ 🔴 monkey
+
+
+TOTAL WORDS: 10
+
+FLAGGED PERCENTAGE: 20% (2 Harmful Words / 10 Total Words)
+
+REASON:
+
+The sentence uses racial slurs (nigga and monkey) to denigrate someone based on their race and ethnicity.  This constitutes racial cyberbullying.

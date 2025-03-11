@@ -1,10 +1,12 @@
 
-from google.colab import userdata
+from dotenv import load_dotenv
 import google.generativeai as genai
+import os
 import re
 
-# Retrieve the API key from Colab’s secrets
-api_key = userdata.get('GOOGLE_API_KEY')
+# Load the API key from .env file
+load_dotenv()
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # Configure the API key for Google Generative AI
 genai.configure(api_key=api_key)
