@@ -15,23 +15,21 @@ This contains a balanced dataset for cyberbullying detection in social media, fe
 - **Gender/Sexual-related** – 17,000 instances  
 - **Religion-related** – 16,000 instances  
 
-The dataset is designed for multi-class classification, ensuring equal representation of each class for effective model training and evaluation.
-[Available on Kaggle](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
+The dataset is designed for multi-class classification, ensuring equal representation of each class for effective model training and evaluation. [Source](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
 
 ## 📂 Project Structure
 
 ### **Artifacts**
 - `Flowchart.txt` – Explanation of the project workflow.
-- `LabelEncoder.pkl` – Label encoder fitted on the training data for encoding class labels.  
+- `LabelEncoder.pkl` – Label encoder fitted on the training data for encoding class labels.
 - `TFIDFVectorizer.pkl` – TF-IDF vectorizer fitted on the training data for text transformation.
-- `RandomForest.pkl` – Trained Random Forest model.  
+- `RandomForest.pkl` – Trained Random Forest model.
 - `NaiveBayes.pkl` – Trained Naive Bayes model.
-- `SVM-OvO.pkl` – Trained Support Vector Machine (One-vs-One) model.  
-- `SVM-OvR.pkl` – Trained Support Vector Machine (One-vs-Rest) model.  
-- `XGBoost.pkl` – Trained XGBoost model.  
-- `LightGBM.pkl` – Trained LightGBM model.  
-- `CatBoost.pkl` – Trained CatBoost model.  
-
+- `SVM-OvO.pkl` – Trained Support Vector Machine (One-vs-One) model.
+- `SVM-OvR.pkl` – Trained Support Vector Machine (One-vs-Rest) model.
+- `XGBoost.pkl` – Trained XGBoost model.
+- `LightGBM.pkl` – Trained LightGBM model.
+- `CatBoost.pkl` – Trained CatBoost model.
 - `helper_prabowo_ml.py` – Helper functions used in transformer training and evaluation.
 - `X_test.pkl`, `X_train.pkl` – Processed training and test sets.   
 - `CyberbullyingClassifier.keras` – Fine-tuned BERT model.
