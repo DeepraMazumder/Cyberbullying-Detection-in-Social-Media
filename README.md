@@ -1,10 +1,10 @@
 # Cyberbullying Detection in Social Media
 
-Welcome to the **Cyberbullying Detection in Social Media** project! This repository contains all the necessary components to classify, analyze, and predict instances of cyberbullying using Machine Learning and Natural Language Processing (NLP) techniques.
+This repository contains all the necessary components to classify, analyze and predict instances of cyberbullying using Machine Learning and Deep Learning.
 
 ## 🚀 Project Overview
 
-This project aims to detect and classify different types of cyberbullying in social media text. We have used various machine learning models, including SVM, Random Forest, Naive Bayes, and Boosting models like XGBoost, LightGBM, and CatBoost, to identify patterns and predict harmful content effectively.
+This project aims to detect and classify different types of cyberbullying in social media text. We have used various machine learning models including SVM, Random Forest, Naive Bayes and Boosting models like XGBoost, LightGBM and CatBoost and advanced deep learning models (BERT) to identify patterns and predict harmful content effectively. The project also includes a summarization process to extract key insights from the detected cyberbullying cases.
 
 ---
 
