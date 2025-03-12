@@ -6,6 +6,18 @@ This repository contains all the necessary components to classify, analyze and p
 
 This project aims to detect and classify different types of cyberbullying in social media text. We have used various machine learning models including SVM, Random Forest, Naive Bayes and Boosting models like XGBoost, LightGBM and CatBoost and advanced deep learning models (BERT) to identify patterns and predict harmful content effectively. The project also includes a summarization process to extract key insights from the detected cyberbullying cases.
 
+## 📊 Dataset  
+
+This contains a balanced dataset for cyberbullying detection in social media, featuring approximately **100,000 tweets** categorized into:  
+
+- **Non-cyberbullying** – 50,000 instances  
+- **Race/Ethnicity-related** – 17,000 instances  
+- **Gender/Sexual-related** – 17,000 instances  
+- **Religion-related** – 16,000 instances  
+
+The dataset is designed for multi-class classification, ensuring equal representation of each class for effective model training and evaluation.
+[Available on Kaggle](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
+
 ## 📂 Project Structure
 
 ### **Artifacts**
@@ -28,7 +40,7 @@ This project aims to detect and classify different types of cyberbullying in soc
 - `CyberbullyingSummary.txt` – Sample output of harmful content detection and suggestions.  
 
 ### **Dataset**
-- `OriginalDataset.csv` – Raw dataset containing social media text and labels. [Available on Kaggle](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
+- `OriginalDataset.csv` – Raw dataset containing social media text and labels.
 - `PreprocessedDataset.csv` – Cleaned and processed dataset ready for model training.  
 
 ### **Notebooks**
@@ -66,6 +78,7 @@ Ensure you have Python installed. Clone this repository and install the required
 git clone https://github.com/your-repo/Cyberbullying-Detection.git
 cd Cyberbullying-Detection
 pip install -r requirements.txt
+```
 
 ## 📝 License
 
