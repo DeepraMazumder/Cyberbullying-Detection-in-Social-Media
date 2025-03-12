@@ -43,7 +43,7 @@ The dataset is designed for multi-class classification, ensuring equal represent
 
 ### **Notebooks**
 - `CyberBullying.ipynb` – Notebook for training and evaluating Machine Learning models.
-- `Fine-tuning BERT.ipynb` – Notebook for fine-tuning BERT-based models. [Published on Kaggle](https://www.kaggle.com/code/deepramazumder/cyberbullying-classification-fine-tuning-bert)
+- `Fine-tuning BERT.ipynb` – Notebook for fine-tuning BERT-based models. [Kaggle](https://www.kaggle.com/code/deepramazumder/cyberbullying-classification-fine-tuning-bert)
 - `Summarisation.ipynb` – Notebook for generating cyberbullying summaries using a Generative AI model. 
 - `Analysis.ipynb` – Script to classify and analyze user input for cyberbullying using a Generative AI model.  
 
