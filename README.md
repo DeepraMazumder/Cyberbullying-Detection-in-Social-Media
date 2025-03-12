@@ -20,40 +20,40 @@ This project aims to detect and classify different types of cyberbullying in soc
 - `LightGBM.pkl` – Trained LightGBM model.  
 - `CatBoost.pkl` – Trained CatBoost model.  
 
-- `helper_prabowo_ml.py` – Helper functions used in transformer training and evaluation.  
+- `helper_prabowo_ml.py` – Helper functions used in transformer training and evaluation.
+- `X_test.pkl`, `X_train.pkl` – Processed training and test sets.   
 - `CyberbullyingClassifier.keras` – Fine-tuned BERT model.
-- `X_test.pkl`, `X_train.pkl` – Processed training and test sets.  
 - `TrainingHistory.pkl` – Training history of the fine-tuned transformer model.
-- `CyberbullyingSummarisation.py` – Script for summarizing cyberbullying cases.  
-- `CyberbullyingSummary.txt` – Text file containing summarized cyberbullying instances.  
+- `CyberbullyingSummarisation.py` – Module for analyzing and summarizing cyberbullying cases.  
+- `CyberbullyingSummary.txt` – Sample output of harmful content detection and suggestions.  
 
 ### **Dataset**
-- `OriginalDataset.csv` – Raw dataset containing social media text and labels. [Source](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
+- `OriginalDataset.csv` – Raw dataset containing social media text and labels. [Available on Kaggle](https://www.kaggle.com/datasets/momo12341234/cyberbully-detection-dataset)
 - `PreprocessedDataset.csv` – Cleaned and processed dataset ready for model training.  
 
 ### **Notebooks**
 - `CyberBullying.ipynb` – Notebook for training and evaluating Machine Learning models.
-- `Fine-tuning BERT.ipynb` – Notebook for fine-tuning BERT-based models (published on Kaggle: [Cyberbullying Classification - Fine-Tuning BERT](https://www.kaggle.com/code/deepramazumder/cyberbullying-classification-fine-tuning-bert)).
-- `Summarisation.ipynb` – Notebook for summarizing cyberbullying cases using NLP.  
-- `Analysis.ipynb` – Exploratory Data Analysis (EDA) and model performance analysis.  
+- `Fine-tuning BERT.ipynb` – Notebook for fine-tuning BERT-based models. [Published on Kaggle](https://www.kaggle.com/code/deepramazumder/cyberbullying-classification-fine-tuning-bert)
+- `Summarisation.ipynb` – Notebook for generating cyberbullying summaries using a Generative AI model. 
+- `Analysis.ipynb` – Script to classify and analyze user input for cyberbullying using a Generative AI model.  
 
 ### **Templates**
-- `Barplot.png` – Barplot showing class distribution.  
-- `Boxplot.png` – Boxplot showing data distribution.  
-- `ClassDistribution.png` – Distribution of cyberbullying categories.  
-- `ConfusionMatrix.png` – Confusion matrix showing model performance.  
-- `Flowchart.png` – Visual representation of the project workflow.  
-- `Histogram.png` – Histogram showing text length distribution.  
-- `ModelComparison.png` – Model performance comparison.  
-- `ROC-AUC.png` – ROC-AUC curves of different models.  
+- `Flowchart.png` – Visual representation of the project workflow.
+- `ClassDistribution.png` – Class distribution visualization based on the dataset.  
+- `Histogram.png` – Histogram showing the length of tweets distribution.  
+- `Boxplot.png` – Boxplot showing tweet length distribution per class.  
+- `WordCloud.png` – Word cloud showing the most common terms in the dataset.  
+- `Barplot.png` – Barplot showing the most common words in each class.  
+- `ModelComparison.png` – Model performance comparison in terms of accuracy.  
+- `ConfusionMatrix.png` – Confusion matrix of the model with the highest accuracy.  
+- `ROC-AUC.png` – ROC-AUC curve of the model with the highest accuracy.
 - `Transformer.png` – Architecture of the Transformer model.  
-- `TransformerAccuracy.png` – Accuracy trend of the Transformer model.  
-- `TransformerLoss.png` – Loss trend of the Transformer model.  
-- `WordCloud.png` – Word cloud showing common terms in the dataset.  
+- `TransformerAccuracy.png` – Accuracy graph of the Transformer model.  
+- `TransformerLoss.png` – Loss graph of the Transformer model.  
 
 ### **Configuration Files**
 - `.gitignore` – Files and folders to be ignored by Git.  
-- `.gitattributes` – File to control Git behavior.  
+- `.gitattributes` – Configures Git Large File Storage (LFS) for managing large files in the repository.  
 - `LICENSE` – Project licensing information.  
 - `requirements.txt` – List of Python packages required to run the project.  
 
@@ -66,3 +66,7 @@ Ensure you have Python installed. Clone this repository and install the required
 git clone https://github.com/your-repo/Cyberbullying-Detection.git
 cd Cyberbullying-Detection
 pip install -r requirements.txt
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
